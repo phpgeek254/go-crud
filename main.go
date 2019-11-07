@@ -27,6 +27,6 @@ func handleRequests() {
 
 func main() {
 	fmt.Println("Starting the ORM TUTORIAL SERVER")
-
+	InitialMigration()
 	handleRequests()
 }
